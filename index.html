@@ -1,0 +1,85 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"></meta>
+<title>PLT City</title>
+<script type="text/javascript" src="javascript/swfobject.js"></script>
+<script type="text/javascript" src="tracking.js"></script>
+<style type="text/css">
+<!--
+.style2 {font-size: 10px}
+.style3 {font-size: 8px; }
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(pattern1.png);
+	background-repeat: repeat;
+	background-color: #83b0d9;
+}
+a.getflash {color:#FFFFFF;font-family:Arial;font-weight:bold}
+-->
+</style>
+<script type="text/javascript">
+function flashMouseLeave() {
+	var mov = getFlashMovieObject("pcity");
+
+	if (mov) {
+		mov.hideHand();
+	}
+}
+
+function getFlashMovieObject(movieName) {
+	if (navigator.appName.indexOf("Microsoft") != -1) {
+	    return window[movieName];
+	}
+	else {
+		return document[movieName];
+	}
+}
+</script>
+</head>
+<body>
+<p>
+  <!--url's used in the movie-->
+  <!--text used in the movie-->
+  <!-- saved from url=(0013)about:internet --></p>
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+  	<td></td>
+    <td><div align="right" class="style2">
+      <!-- AddThis Button BEGIN -->
+      <a href="http://www.addthis.com/bookmark.php" onClick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"></a>
+      <script type="text/javascript">var addthis_pub = 'tayvid';</script>
+      <script type="text/javascript" src="http://s9.addthis.com/js/widget.php?v=10"></script>
+      <!-- AddThis Button END -->
+    </div></td>
+    <td></td>
+  </tr>
+  <tr>
+  	<td></td>
+    <td><div align="right" class="style3"><a href="#">E-MAIL SIGNUP</a> | <a href="#">SEND TO A FRIEND</a> | <a href="http://www.plantronics.com/north_america/en_US/support/index.jhtml;jsessionid=HAWWYK3ASKL3CCQBGNUCFFAKAEZWSIV0" target="_blank">SUPPORT</a> | <a href="http://www.addthis.com/bookmark.php" onClick="addthis_url   = location.href; addthis_title = document.title; return addthis_click(this);" target="_blank"><img src="http://s9.addthis.com/button1-bm.gif" width="125" height="16" border="0" alt="Bookmark and Share" /></a></div></td>
+    <td></td>
+  </tr>
+  <tr><td colspan="3">&nbsp;</td></tr>
+  <tr>
+    <td><img id="padLeft" src="trans.gif" width="100%" height="570" onMouseOver="javascript:flashMouseLeave();" /></td>
+    <td width="900">
+    <div id="content">This content requires the latest Flash Player. <a class="getflash" href="http://www.adobe.com/shockwave/download/download.cgi?P1_Prod_Version=ShockwaveFlash">Click here to get the latest Flash Player</a></div>
+
+    <script type="text/javascript">
+    // <![CDATA[
+        var so = new SWFObject('master.swf', 'pcity', '900', '570', '9', '#ffffff');
+        so.addParam('menu', 'false');
+        so.addParam('allowscriptaccess', 'always');
+        so.addParam('wmode', 'transparent');
+        so.write('content');
+    // ]]>
+    </script>
+    </td>
+      <td><img id="padRight" onMouseOver="javascript:flashMouseLeave();" src="trans.gif" width="100%" height="570" /></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+</html>
